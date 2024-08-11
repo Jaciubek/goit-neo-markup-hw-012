@@ -1,0 +1,222 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #4d5ae5;
+  --secound-color: #434455;
+  --third-color: #2e2f42;
+  --main-background: #e5e5e5;
+  --grey-backgroung: #f4f4fd;
+  --dark-background: #2e2f42;
+}
+body {
+  font-family: var(--main-font);
+}
+/*===== COMPONENTS =====*/
+.address,
+.navigation-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--secound-color);
+}
+.third-header {
+  font-size: 20 px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.footer {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  background-color: var(--dark-background);
+}
+.description-footer {
+  font-size: 16 px;
+  line-height: 1.5;
+  color: #f4f4fd
+}
+
+/*===== HEADER =====*/
+.navigation-logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.navigation-logo span {
+  color: var(--third-color);
+}
+
+.navigation-list {
+  list-style: none;
+}
+.navigation-list-link {
+  text-decoration: none;
+  color: var(--third-color);
+}
+.navigation-list-link span {
+  color: var(--main-color);
+}
+#dark-background {
+  color: #ffffff;
+}
+.address-email,
+.address-phone-number {
+  text-decoration: none;
+  color: var(--secound-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-email:hover,
+.address-email:focus,
+.address-phone-number:hover,
+.address-phone-number:focus {
+  color: var(--main-color);
+}
+.modal-btn {
+  width: 200px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.address {
+  font-style: normal;
+  color: var(--secound-color);
+}
+
+/*===== HERO =====*/
+.hero-up-side {
+  background-color: var(--dark-background);
+}
+.main-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.modal-btn {
+  background-color: var(--main-color);
+}
+.third-header-hero {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+}
+.hero-list {
+  list-style: none;
+}
+.description-hero {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/*===== What are we doing =====*/
+.secound-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.about-img-list {
+  list-style: none;
+}
+
+/*===== OUR TEAM =====*/
+.team-img-list-item {
+  background-color: #ffffff;
+}
+.team {
+  background-color: var(--grey-backgroung);
+}
+.team-img-list {
+  list-style: none;
+}
+.third-header-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.description-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*=====  FOOTER =====*/
+.footer-list {
+  list-style: none;
+}
+
+
+/*===== PORTFOLIO FILTER =====*/
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--main-color);
+  background-color: #e7e9fc;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.filter-buttons-item {
+  list-style: none;
+}
+
+/*===== PORTFOLIO CHOICE =====*/
+.portfolio-figure {
+  background-color: #e7e9fc;
+}
+.fig-description,
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.fig-description,
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secound-color);
+}
+.portfolio-list {
+  list-style: none;
+}
+
